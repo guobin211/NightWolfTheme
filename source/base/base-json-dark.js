@@ -669,7 +669,7 @@ module.exports = function (colors) {
       scope: 'bold',
       settings: {
         foreground: colors.string.hex(),
-        fontStyle: 'bold',
+        fontStyle: 'normal',
       },
     },
     {
@@ -2228,12 +2228,12 @@ module.exports = function (colors) {
     type: colors.specialWordC.hex(),
     function: colors.functionName.hex(),
     'function.declaration': {
-      fontStyle: 'bold',
+      fontStyle: 'normal',
     },
     method: colors.functionName.hex(),
     class: colors.functionName.hex(),
     'class.declaration': {
-      fontStyle: 'bold',
+      fontStyle: 'normal',
     },
     'class.defaultLibrary': colors.specialWordB.hex(),
     property: colors.text.hex(),
